@@ -1,12 +1,12 @@
 {
-  "domain": "integration_blueprint",
-  "name": "Integration blueprint",
+  "domain": "car-charging",
+  "name": "Integration car-charging",
   "codeowners": [
     "@ludeeus"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/ludeeus/integration_blueprint",
+  "documentation": "https://github.com/gesaur/ha-car-charging",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/ludeeus/integration_blueprint/issues",
+  "issue_tracker": "https://github.com/gesaur/ha-car-charging/issues",
   "version": "0.0.0"
 }

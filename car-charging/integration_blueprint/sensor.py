@@ -1,4 +1,4 @@
-"""Sensor platform for integration_blueprint."""
+"""Sensor platform for car-charging."""
 from __future__ import annotations
 
 from homeassistant.components.sensor import SensorEntity, SensorEntityDescription
@@ -9,7 +9,7 @@ from .entity import IntegrationBlueprintEntity
 
 ENTITY_DESCRIPTIONS = (
     SensorEntityDescription(
-        key="integration_blueprint",
+        key="car-charging",
         name="Integration Sensor",
         icon="mdi:format-quote-close",
     ),

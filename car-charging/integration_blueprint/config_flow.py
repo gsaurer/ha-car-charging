@@ -1,4 +1,4 @@
-"""Adds config flow for Blueprint."""
+"""Adds config flow for car-charging."""
 from __future__ import annotations
 
 import voluptuous as vol
@@ -17,7 +17,7 @@ from .const import DOMAIN, LOGGER
 
 
 class BlueprintFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
-    """Config flow for Blueprint."""
+    """Config flow for car-charging."""
 
     VERSION = 1
 

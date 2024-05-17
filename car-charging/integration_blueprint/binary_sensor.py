@@ -1,4 +1,4 @@
-"""Binary sensor platform for integration_blueprint."""
+"""Binary sensor platform for car-charging."""
 from __future__ import annotations
 
 from homeassistant.components.binary_sensor import (
@@ -13,8 +13,8 @@ from .entity import IntegrationBlueprintEntity
 
 ENTITY_DESCRIPTIONS = (
     BinarySensorEntityDescription(
-        key="integration_blueprint",
-        name="Integration Blueprint Binary Sensor",
+        key="car-charging",
+        name="Integration car-charging Binary Sensor",
         device_class=BinarySensorDeviceClass.CONNECTIVITY,
     ),
 )
